@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets/Scripts/Movement.cs" />
      <Compile Include="Assets/Scripts/CollisionHandler.cs" />
+     <Compile Include="Assets/Scripts/Oscillator.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -649,6 +650,14 @@
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{6d6e3f39-184c-c051-dd01-eae99269af6a}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{9141b975-cfe7-32ee-b45b-6d2ea3d704cc}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{b4ed3f6c-cfc8-3ba6-a225-01f149c474e3}</Project>
+      <Name>Cinemachine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
